@@ -78,10 +78,6 @@ def import_csv(file):
 
 
 
-#TARGET = [[2*w,2*w,w,w],[8.6*w,2*w,2*w,2*w],[15.2*w,2*w,3*w,3*w],[2*w,6.5*w,w,w],[8.6*w,6.5*w,3*w,3*w],[15.2*w,6.5*w,2*w,2*w],[2*w,11*w,100,100],[8.6*w,11*w,w,w],[15.2*w,11*w,3*w,3*w]]
-
-
-
 def text_msg(msg, loc):
     txt_font = pygame.font.SysFont('Microsoft YaHei',50)
     txt_msg = txt_font.render(msg,True,WHITE)
